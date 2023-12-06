@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br"data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Inicial</title>
+
+   <!-- Latest compiled and minified CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+
+    <!-- Container Fluid que abrigará o Logotipo do Sistema -->
+    <div class="container-fluid text-center" style="margin-top:30px; margin-bottom:30px;"> 
+      <img src='img/logo.jpg' style="width:200px"class="rounded-circle">
+      <h3><b><i>Mysticrochê</i></b></h3>
+    </div>
+
+    <!-- Aqui fica a barra de navegação do sistema -->
+    <nav class="navbar navbar-expand-sm navbar-dark sticky-top" style="background-color:#9ACD32">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Início</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="cadastro.html">Cadastre-se</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="formLogin.html">Login</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="text" placeholder="Search">
+              <button class="btn btn-primary" type="button">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- Container que abrigará o conteúdo da página-->
+      <div class="container" style="margin-top:30px; margin-bottom:100px;">
+ 
+        <div class="alert alert-info text-center">
+          Há <b>8</b> itens cadastrados no sistena!
+        </div>
+        
+        <!-- Cria uma linha para a Grid -->
+        <div class="row" style="margin-bottom:30px;">
+          <div class="col-sm-3">
+            <!-- Card do Produto -->
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/ursinha.jpg" alt="Ursinha Animadinha" tittle="Ursinha Animadinha">
+              <div class="card-body">
+                <h4 class="card-title">Ursinha Animadinha</h4>
+                <p class="card-text">R$100,00</p>
+                <a href="visualizar.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>            
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/vaquinha.jpg"  alt="Vaquinha de vestido" tittle="Vaquinha de vestido">
+              <div class="card-body">
+                <h4 class="card-title">Vaquinha de vestido</h4>
+                <p class="card-text">R$50,00</p>
+                <a href="visualizar.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/passarinhos.jpg" alt="Casal de passsarinhos" tittle="Casal de passarinhos">
+              <div class="card-body">
+                <h4 class="card-title">Casal de passarinhos</h4>
+                <p class="card-text">R$55,00</p>
+                <a href="visualizar.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/vaquinha vermelha.jpg" alt="Vaquinha vermelha" tittle="Vaquinha vermelha">
+              <div class="card-body">
+                <h4 class="card-title">Vaquinha vermelha</h4>
+                <p class="card-text">R$30,00</p>
+                <a href="visualizar.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-3">
+
+            <!-- Card do Produto -->
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/girassol.jpg" alt="Vaquinha girassol" tittle="Vaquinha girassol">
+              <div class="card-body">
+                <h4 class="card-title">Vaquinha girassol</h4>
+                <p class="card-text">R$55,00</p>
+                <a href="visualizarProduto.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>            
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/coraline.jpg" alt="Amigurumi coraline" tittle="Amigurumi Coraline">
+              <div class="card-body">
+                <h4 class="card-title">Amigurumi Coraline</h4>
+                <p class="card-text">R$70,00</p>
+                <a href="visualizarProduto.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/bailarina.jpg" alt="Amigurumi bailarina" tittle="Amigurumi bailarina">
+              <div class="card-body">
+                <h4 class="card-title">Amigurumi bailarina</h4>
+                <p class="card-text">R$80,00</p>
+                <a href="visualizarProduto.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card" style="width:100%">
+              <img class="card-img-top" src="img/polvo vermelho.jpg" alt="chaveiro polvo" tittle="Chaveiro polvo">
+              <div class="card-body">
+                <h4 class="card-title">Chaveiro polvo</h4>
+                <p class="card-text">R$15,00</p>
+                <a href="visualizarProduto.html" class="btn btn-primary">Ver Produto</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Container que abrigará o rodapé da página -->
+      <div class="contaier-fluid text-center bg-dark text-light fixed-bottom">
+        <p>
+          Interfaces de Sistema Web desenvolvido por 
+          <b>
+            <a href="mailto:heloisablam@gmail.com?Subject=Tecnologias Web" title="Entre em Contato">heloisa blam</a>
+          </b>
+        </p>
+
+      </div>
+    
+</body>
+</html>
